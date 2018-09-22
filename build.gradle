@@ -1,0 +1,13 @@
+
+apply plugin: 'java-library'
+
+// In this section you declare where to find the dependencies of your project
+repositories {    
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
